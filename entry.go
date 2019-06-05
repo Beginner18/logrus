@@ -12,6 +12,7 @@ import (
 )
 
 var (
+
 	bufferPool *sync.Pool
 
 	// qualified package name, cached at first use
